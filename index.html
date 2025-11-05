@@ -8,6 +8,11 @@
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.css" rel="stylesheet">
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.js"></script>
     <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
         h2, h3 {
             margin: 10px;
             font-size: 18px;
@@ -86,7 +91,7 @@
     <div class='map-overlay' id='legend'></div>
 
     <script>
-        mapboxgl.accessToken = 'pk.eyJ1IjoiamFrb2J6aGFvIiwiYSI6ImNpcms2YWsyMzAwMmtmbG5icTFxZ3ZkdncifQ.P9MBej1xacybKcDN_jehvw';
+        mapboxgl.accessToken = 'pk.eyJ1IjoiaG1lcnJpdHQxMSIsImEiOiJjbWhqcHRpOWgxMjA1MmxwbjdqY2x2dzdiIn0.Y0OZ2_z34S1hWXsgpOP19A';
 
         const map = new mapboxgl.Map({
             container: 'map',
